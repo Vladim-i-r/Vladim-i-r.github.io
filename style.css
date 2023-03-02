@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+
+.front{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: black;
+    border-radius: 24px;
+    border: 3px solid azure;
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background: black;
+}
+
+.user{
+    float: left;
+    width: 70%;
+    height: 60%;
+    border-radius: 24px;
+    background: black;
+}
+
+.result{
+    float: right;
+    width: 29%;
+    height: 79%;
+    border-radius: 24px;
+    border: 3px dashed azure;
+    background: black;
+}
+
+.buttons{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: black;
+}
+
+.buttons p{
+    text-align: center;
+}
+
+.logomain{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    float: inherit;
+}
+
+.title{
+    float: inherit;
+    margin-left: 20%;
+    color: azure;
+}
+
+.text-input{
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 75%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: azure;
+    background: black;
+    resize: none;
+}
+
+#logoresult{
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+}
+
+#defaulttext{
+    text-align: center;
+    color: azure;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+#instruction{
+    text-align: justify;
+    float: left;
+    margin: 10%;
+    color: azure;
+    background: black;
+    width: 80%;
+    height: 20%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-style: italic;
+    resize: none;
+}
+
+.rules{
+    color: azure;
+}
+
+#button-copy{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 15%;
+    background: black;
+    color: azure;
+    border-radius: 24px;
+    border-color: azure;
+    outline-color: azure;
+    display: none;
+}
+
+.credits{
+    color: azure;
+    font-size: 10px;
+    text-align: right;
+}
+
+#button-encrypt{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: rgb(24, 24, 24);
+    border-color: azure;
+    outline-color: azure;
+    color: azure;
+}
+
+
+#button-decrypt{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: black;
+    border-color: azure;
+    outline-color: azure;
+    color: azure;
+}

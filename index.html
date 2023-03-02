@@ -1,0 +1,45 @@
+<!-- 
+    Proyecto realizado por Vladimir López
+    Encriptador de mensajes
+  -->
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">   <!-- DICCIONARIO DE PALABRAS, SIRVE PARA QUE CADA EXPLORADOR PUEDA LEER LOS CARACTERES  -->
+        <meta name="viewport" content="width=device-width">
+       <!-- <link rel="stylesheet" href="reset.css">   resetea todos los estilos que vienen por default-->
+        <link rel="stylesheet" href="style.css"> <!-- "style.css es el nombre del archivo y misma ruta" -->
+        <script type="text/javascript" src="script.js"></script>
+        <title>Challenge Encriptador de texto</title>
+    </head>
+
+
+    <body>
+        <div class="front">
+            <div class="logo">
+                <img class="logomain" src="logoalura.png">
+                <h1 class="title">Encriptador de mensajes</h1>
+            </div>
+
+            <div class="user">
+            <textarea class="text-input" id="textinput" type="text" cols="70" rows="10" placeholder="Ingrese el texto aqui" autofocus required></textarea>
+            </div>
+
+            <div class="result">
+                <img id="logoresult" src="lupa.png">
+                <h1 id="defaulttext">Ningun mensaje encontrado</h1>
+                <textarea id="instruction" readonly>Ingrese el texto que desea encriptar o desencriptar</textarea>
+                <button type="button" id="button-copy" onclick="copiar()">Copiar texto</button>
+                <p class="credits"><em>Project made by Vladimir López</em></p>
+            </div>
+
+            <div class="buttons">
+                <p class="rules">&#9432 Sólo minúsculas y sin acentos</p>
+                <button type="button" id="button-encrypt" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="button-decrypt" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </div>
+    </body>
+
+</html>
